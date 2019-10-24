@@ -1,22 +1,31 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.dateOfBirthWrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #09d3ac;
+.h1DateOfBirth {
+  font-weight: 400;
+}
+.formDateOfBirth {
+  display: flex;
+}
+.inputDateOfBirth {
+  height: 50px;
+  font-size: 26px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  border-radius: 8px;
+  padding-left: 14px;
+  color: #333333;
+}
+.btnDateOfBirth {
+  background-color: #4caf50; /* Green */
+  border: none;
+  color: white;
+  padding: 11px 31px;
+  font-size: 23px;
+  border-radius: 8px;
+  margin-left: 8px;
 }
